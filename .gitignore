@@ -1,0 +1,50 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Composer
+/vendor/
+composer.lock
+
+# Logs
+/logs/*.log
+*.log
+
+# Uploads
+/uploads/*
+!uploads/.gitkeep
+
+# Cache
+/cache/*
+*.cache
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+/temp/*
+
+# Backup files
+/backups/*
+*.sql
+*.backup
+
+# Config files with sensitive data
+config/encryption.key
+config/*.key
+
+# Node modules (if using any frontend tools)
+node_modules/
+
+# OS generated files
+Thumbs.db
+.DS_Store
